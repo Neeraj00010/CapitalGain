@@ -1,18 +1,20 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Provider } from "react-redux";
-
-import App from "./App";
+import { Provider } from 'react-redux';
+import App from './App';
 import store from './app/store';
 import 'antd/dist/reset.css';
+import { Chart as ChartJS, registerables } from 'chart.js';
+import 'chartjs-adapter-date-fns';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+ChartJS.register(...registerables);
 
-root.render(
-    <Router>
-        <Provider store={store}>
-            <App />
-        </Provider>
-    </Router>
+ReactDOM.render(
+  <Router>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </Router>,
+  document.getElementById('root')
 );

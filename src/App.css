@@ -370,6 +370,32 @@ width: 70%;
     margin-top: 20px !important;
 }
 
+.news-image-container {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.news-title {
+    width: 70%;
+    word-wrap: break-word;
+}
+  
+.news-card img {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+}
+  
+.provider-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.provider-name {
+    margin-left: 10px;
+}
+  
 .footer {
     background-color: #001529;
     display: flex;
