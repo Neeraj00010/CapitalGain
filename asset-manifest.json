@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/CapitalGain/static/css/main.4b3fd42f.css",
+    "main.js": "/CapitalGain/static/js/main.348613bc.js",
+    "static/media/cryptocurrency.png": "/CapitalGain/static/media/cryptocurrency.1548aced3f0605895bac.png",
+    "index.html": "/CapitalGain/index.html",
+    "main.4b3fd42f.css.map": "/CapitalGain/static/css/main.4b3fd42f.css.map",
+    "main.348613bc.js.map": "/CapitalGain/static/js/main.348613bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b3fd42f.css",
+    "static/js/main.348613bc.js"
+  ]
+}
