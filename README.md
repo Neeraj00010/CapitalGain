@@ -1,4 +1,4 @@
-Capital Gain Project
+++Capital Gain Project
 
 Welcome to the Capital Gain Project! This repository contains the source code for a cryptocurrency news and exchanges information web application. The project leverages various APIs to fetch and display up-to-date information about cryptocurrency exchanges and news articles related to cryptocurrencies.
 Features
