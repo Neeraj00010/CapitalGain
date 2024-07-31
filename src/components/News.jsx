@@ -30,7 +30,7 @@ const News = ({ simplified }) => {
                     style={{ maxWidth: '100px', maxHeight: '100px', objectFit: 'cover', padding: '5px' }} 
                   />
                 </div>
-                <p>{newsItem.summary.length > 100 ? `${newsItem.summary.substring(0, 100)}...` : newsItem.summary}</p>
+                <p>{newsItem.summary?.length > 100 ? `${newsItem.summary.substring(0, 100)}...` : newsItem.summary}</p>
                 <div className="provider-container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '10px 0' }}>
                   <Text className="provider-name" style={{ marginLeft: '10px' }}>
                     <strong>Author: </strong>
